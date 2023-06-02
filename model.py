@@ -1,9 +1,8 @@
 # In this file we build a simple model with sklearn
 
 import pandas as pd
-import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from joblib import dump, load
+from joblib import dump
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
